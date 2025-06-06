@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "name": "Flood Monitor",
+    "slug": "flood-monitor",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.floodmonitor.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.floodmonitor.app"
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    },
+    "plugins": [
+      "expo-location"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "flood-monitor-app"
+      }
+    },
+    "fonts": [
+      {
+        "asset": "node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"
+      }
+    ],
+    "experiments": {
+      "tsconfigPaths": true
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    }
+  }
+} 
