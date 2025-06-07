@@ -12,6 +12,7 @@ import { MaterialIcons } from '@expo/vector-icons';
 import { View, Text, StyleSheet, Platform, StatusBar } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { ChecklistScreen } from '../screens/ChecklistScreen';
+import { PreventionTipsScreen } from '../screens/PreventionTips';
 
 const Tab = createBottomTabNavigator<MainTabParamList>();
 const Stack = createNativeStackNavigator<RootStackParamList>();
@@ -113,6 +114,14 @@ export const Navigation = () => {
         options={{
           headerShown: true,
           title: 'Checklist',
+        }}
+      />
+      <Stack.Screen 
+        name="PreventionTips" 
+        component={PreventionTipsScreen}
+        options={{
+          headerShown: true,
+          title: 'Dicas de Prevenção',
         }}
       />
       <Stack.Screen 

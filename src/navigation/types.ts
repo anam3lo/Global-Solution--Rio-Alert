@@ -8,6 +8,7 @@ export type RootStackParamList = {
   Rios: undefined;
   Alertas: undefined;
   Checklist: undefined;
+  PreventionTips: undefined;
 };
 
 export type MainTabParamList = {

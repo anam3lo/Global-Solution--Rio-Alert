@@ -7,6 +7,7 @@ import {
   ActivityIndicator,
   Image,
   Dimensions,
+  Linking,
 } from 'react-native';
 import { RouteProp, useRoute, useNavigation } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
@@ -116,8 +117,8 @@ export const RiverDetailsScreen = () => {
                 style={styles.yellowActionButton}
               />
               <Button
-                title="Ver rotas de fuga"
-                onPress={() => {}}
+                title="Conferir rotas para fuga"
+                onPress={() => Linking.openURL('https://www.google.com/maps/dir/?api=1&destination=saferoute')}
                 style={styles.yellowActionButton}
               />
             </View>
@@ -152,12 +153,12 @@ export const RiverDetailsScreen = () => {
               </Text>
               <Button
                 title="Ver previsão do tempo"
-                onPress={() => {}}
+                onPress={() => Linking.openURL('https://www.google.com/search?q=previsao+do+tempo')}
                 style={styles.greenActionButton}
               />
               <Button
                 title="Dicas de prevenção"
-                onPress={() => {}}
+                onPress={() => navigation.navigate('PreventionTips')}
                 style={styles.greenActionButton}
               />
             </View>
@@ -195,12 +196,12 @@ export const RiverDetailsScreen = () => {
               </Text>
               <Button
                 title="Ligue para emergência"
-                onPress={() => {}}
+                onPress={() => Linking.openURL('tel:199')}
                 style={styles.redActionButton}
               />
               <Button
                 title="Conferir rotas para fuga"
-                onPress={() => {}}
+                onPress={() => Linking.openURL('https://www.google.com/maps/dir/?api=1&destination=saferoute')}
                 style={styles.redActionButton}
               />
             </View>
