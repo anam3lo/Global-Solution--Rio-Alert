@@ -11,6 +11,7 @@ import { colors } from '../theme/colors';
 import { MaterialIcons } from '@expo/vector-icons';
 import { View, Text, StyleSheet, Platform, StatusBar } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
+import { ChecklistScreen } from '../screens/ChecklistScreen';
 
 const Tab = createBottomTabNavigator<MainTabParamList>();
 const Stack = createNativeStackNavigator<RootStackParamList>();
@@ -104,6 +105,22 @@ export const Navigation = () => {
         options={{
           headerShown: true,
           title: 'Detalhes do Rio',
+        }}
+      />
+      <Stack.Screen 
+        name="Checklist" 
+        component={ChecklistScreen}
+        options={{
+          headerShown: true,
+          title: 'Checklist',
+        }}
+      />
+      <Stack.Screen 
+        name="Alertas" 
+        component={AlertsScreen}
+        options={{
+          headerShown: true,
+          title: 'Alertas',
         }}
       />
     </Stack.Navigator>

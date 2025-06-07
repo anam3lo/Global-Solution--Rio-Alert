@@ -132,7 +132,7 @@ export const HomeScreen = () => {
           <Button
             title="Ver Alertas"
             icon={<Icon name="notifications" size={24} color={colors.white} />}
-            onPress={() => navigation.navigate('Alerts')}
+            onPress={() => navigation.navigate('Alertas')}
             variant="secondary"
             style={styles.actionButton}
           />

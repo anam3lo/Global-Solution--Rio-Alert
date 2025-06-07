@@ -7,6 +7,7 @@ export type RootStackParamList = {
   Splash: undefined;
   Rios: undefined;
   Alertas: undefined;
+  Checklist: undefined;
 };
 
 export type MainTabParamList = {

@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { View, Text, StyleSheet, Animated } from 'react-native';
+import { View, Text, StyleSheet, Animated, Image } from 'react-native';
 import { colors } from '../../theme/colors';
 
 interface SplashScreenProps {
@@ -43,8 +43,11 @@ export const SplashScreen: React.FC<SplashScreenProps> = ({ onFinish }) => {
           },
         ]}
       >
-        <Text style={styles.logo}>🌊</Text>
-        <Text style={styles.title}>Flood Monitor</Text>
+        <Image
+            source={require('../../../assets/icon.png')}
+            style={styles.icon}
+          />
+        <Text style={styles.title}>RioAlert</Text>
         <Text style={styles.slogan}>Prevenção que salva</Text>
       </Animated.View>
     </View>
@@ -75,5 +78,10 @@ const styles = StyleSheet.create({
     fontSize: 18,
     color: colors.white,
     opacity: 0.9,
+  },
+  icon: {
+    width: 120,
+    height: 120,
+    marginBottom: 16,
   },
 }); 
