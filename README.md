@@ -28,7 +28,7 @@ npx expo start
 📱 Escaneie o QR Code com o aplicativo Expo Go no seu celular;
 💻 Ou selecione um emulador Android/iOS no menu web do Expo.
 
-## Integrantes
+## 👥 Integrantes
 
 | Nome              | RM     |
 |-------------------|--------|
