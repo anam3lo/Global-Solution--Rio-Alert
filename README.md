@@ -11,3 +11,19 @@ O objetivo do RioAlert é oferecer uma solução digital preventiva, capaz de in
 - Telas com orientações específicas para cada alerta
 - Indicação de abrigos e rotas de fuga em caso de emergência
 - Checklist de prevenção e orientações da Defesa Civil
+
+## 🚀 Como Inicializar o Projeto
+Siga os passos abaixo para executar o projeto localmente:
+
+1. Clone o repositório:
+git clone (https://github.com/anam3lo/Global-Solution--Rio-Alert)
+
+2. Instale as dependências:
+npm install
+
+3. Inicie o servidor de desenvolvimento:
+npx expo start
+
+4. Execute no dispositivo ou emulador:
+📱 Escaneie o QR Code com o aplicativo Expo Go no seu celular;
+💻 Ou selecione um emulador Android/iOS no menu web do Expo.
