@@ -27,3 +27,10 @@ npx expo start
 4. Execute no dispositivo ou emulador:
 📱 Escaneie o QR Code com o aplicativo Expo Go no seu celular;
 💻 Ou selecione um emulador Android/iOS no menu web do Expo.
+
+## Integrantes
+
+| Nome              | RM     |
+|-------------------|--------|
+| Ana Clara Melo    | 554357 |
+| Milena Oliveira   | 557848 |
